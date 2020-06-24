@@ -26,7 +26,7 @@ Self-hosting is recommended for advanced users only who are experienced with the
 4. Edit the file `src/data/client.json` and insert your [bot token](https://discordapp.com/developers/applications/me).
 5. Start the bot from the project folder: `node ./src/index.js`
 6. You should set up a process manager like [PM2](http://pm2.keymetrics.io/) or forever.js to ensure that the bot remains online.
-
+[![Run on Repl.it](https://repl.it/badge/github/evaera/RoVer)](https://repl.it/github/evaera/RoVer)
 ### Update Server
 
 The *Update Server* is an optional part of RoVer that can be enabled in `client.json`. It is an HTTP server that can listen for requests and globally update a member in all guilds that the bot is in, similar to if they ran `!verify` in every guild. This is used internally on the hosted version for when the user verifies on verify.eryn.io, but you could use it for whatever purpose you wish.
